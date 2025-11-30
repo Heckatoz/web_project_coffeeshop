@@ -13,14 +13,18 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   position: relative;
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  padding: 0;
 }
 
 .nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
 }
@@ -59,7 +63,7 @@
 
 .header__title {
   max-width: 709px;
-  margin: 0 0 0 80px;
+  margin: 252px 0 0 80px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -171,7 +175,7 @@
   justify-content: space-between;
 }
 
-.recipes__video_iframe {
+.recipes__iframe {
   width: 480px;
   height: 273px;
   border: none;
